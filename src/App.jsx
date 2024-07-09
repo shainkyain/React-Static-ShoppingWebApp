@@ -8,6 +8,7 @@ function App() {
 
   return (
     <div className="h-screen w-screen flex">
+      
       {(pathname != "/" || search.length > 0) && (
         <Link to="/" className="text-red-400 absolute left-[17%] top-[3%]">
               home
